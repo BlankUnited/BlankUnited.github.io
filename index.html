@@ -46,13 +46,13 @@
   }
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
-      domain: 'bahtona.myshopify.com',
-      storefrontAccessToken: '0ddd234f1867cbd3b2196ad43a4e055f',
+      domain: 'shawn-knowles.myshopify.com',
+      storefrontAccessToken: '5dde773731d30ac04c0732ece92c07b4',
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('collection', {
-        id: '157474226231',
-        node: document.getElementById('collection-component-1577202378515'),
+        id: '158612947076',
+        node: document.getElementById('collection-component-1577928073258'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -78,46 +78,32 @@
         }
       },
       "title": {
-        "font-size": "17px",
         "color": "#000000"
       },
       "button": {
-        "font-family": "Droid Sans, sans-serif",
-        "font-weight": "bold",
-        "font-size": "14px",
-        "padding-top": "15px",
-        "padding-bottom": "15px",
         ":hover": {
-          "background-color": "#000000"
+          "background-color": "#020000"
         },
-        "background-color": "#000000",
+        "background-color": "#010000",
         ":focus": {
-          "background-color": "#000000"
+          "background-color": "#020000"
         },
-        "border-radius": "40px",
-        "padding-left": "23px",
-        "padding-right": "23px"
-      },
-      "quantityInput": {
-        "font-size": "14px",
-        "padding-top": "15px",
-        "padding-bottom": "15px"
+        "border-radius": "25px",
+        "padding-left": "20px",
+        "padding-right": "20px"
       },
       "price": {
-        "font-size": "18px",
-        "color": "#8f8a8a"
+        "font-size": "15px",
+        "color": "#8f8282"
       },
       "compareAt": {
-        "font-size": "15.299999999999999px",
-        "color": "#8f8a8a"
+        "font-size": "12.75px",
+        "color": "#8f8282"
       }
     },
     "text": {
       "button": "Add to cart"
-    },
-    "googleFonts": [
-      "Droid Sans"
-    ]
+    }
   },
   "productSet": {
     "styles": {
@@ -131,7 +117,9 @@
   "modalProduct": {
     "contents": {
       "img": false,
-      "imgWithCarousel": true
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
     },
     "styles": {
       "product": {
@@ -142,174 +130,50 @@
         }
       },
       "button": {
-        "font-family": "Droid Sans, sans-serif",
-        "font-weight": "bold",
-        "font-size": "14px",
-        "padding-top": "15px",
-        "padding-bottom": "15px",
         ":hover": {
-          "background-color": "#000000"
+          "background-color": "#020000"
         },
-        "background-color": "#000000",
+        "background-color": "#010000",
         ":focus": {
-          "background-color": "#000000"
+          "background-color": "#020000"
         },
-        "border-radius": "40px",
-        "padding-left": "23px",
-        "padding-right": "23px"
-      },
-      "quantityInput": {
-        "font-size": "14px",
-        "padding-top": "15px",
-        "padding-bottom": "15px"
-      },
-      "title": {
-        "color": "#ffffff"
-      },
-      "price": {
-        "color": "#b0abab"
-      },
-      "compareAt": {
-        "color": "#b0abab"
+        "border-radius": "25px",
+        "padding-left": "20px",
+        "padding-right": "20px"
       }
     },
-    "googleFonts": [
-      "Droid Sans"
-    ],
     "text": {
       "button": "Add to cart"
-    }
-  },
-  "modal": {
-    "styles": {
-      "modal": {
-        "background-color": "#000000"
-      }
     }
   },
   "cart": {
     "styles": {
       "button": {
-        "font-family": "Droid Sans, sans-serif",
-        "font-weight": "bold",
-        "font-size": "14px",
-        "padding-top": "15px",
-        "padding-bottom": "15px",
         ":hover": {
-          "background-color": "#000000"
+          "background-color": "#020000"
         },
-        "background-color": "#000000",
+        "background-color": "#010000",
         ":focus": {
-          "background-color": "#000000"
+          "background-color": "#020000"
         },
-        "border-radius": "40px"
-      },
-      "title": {
-        "color": "#000000"
-      },
-      "header": {
-        "color": "#000000"
-      },
-      "lineItems": {
-        "color": "#000000"
-      },
-      "subtotalText": {
-        "color": "#000000"
-      },
-      "subtotal": {
-        "color": "#000000"
-      },
-      "notice": {
-        "color": "#000000"
-      },
-      "currency": {
-        "color": "#000000"
-      },
-      "close": {
-        "color": "#000000",
-        ":hover": {
-          "color": "#000000"
-        }
-      },
-      "empty": {
-        "color": "#000000"
-      },
-      "noteDescription": {
-        "color": "#000000"
-      },
-      "discountText": {
-        "color": "#000000"
-      },
-      "discountIcon": {
-        "fill": "#000000"
-      },
-      "discountAmount": {
-        "color": "#000000"
+        "border-radius": "25px"
       }
     },
     "text": {
       "total": "Subtotal",
       "button": "Checkout"
-    },
-    "googleFonts": [
-      "Droid Sans"
-    ]
+    }
   },
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Droid Sans, sans-serif",
-        "font-weight": "bold",
-        "background-color": "#000000",
+        "background-color": "#010000",
         ":hover": {
-          "background-color": "#000000"
+          "background-color": "#020000"
         },
         ":focus": {
-          "background-color": "#000000"
+          "background-color": "#020000"
         }
-      },
-      "count": {
-        "font-size": "14px"
-      }
-    },
-    "googleFonts": [
-      "Droid Sans"
-    ]
-  },
-  "lineItem": {
-    "styles": {
-      "variantTitle": {
-        "color": "#000000"
-      },
-      "title": {
-        "color": "#000000"
-      },
-      "price": {
-        "color": "#000000"
-      },
-      "fullPrice": {
-        "color": "#000000"
-      },
-      "discount": {
-        "color": "#000000"
-      },
-      "discountIcon": {
-        "fill": "#000000"
-      },
-      "quantity": {
-        "color": "#000000"
-      },
-      "quantityIncrement": {
-        "color": "#000000",
-        "border-color": "#000000"
-      },
-      "quantityDecrement": {
-        "color": "#000000",
-        "border-color": "#000000"
-      },
-      "quantityInput": {
-        "color": "#000000",
-        "border-color": "#000000"
       }
     }
   }
@@ -334,7 +198,7 @@
 </header>
 
   <div class="w3-center w3-white w3-padding-16 m6 w3-margin-top">
-    <div id='collection-component-1577202378515'></div>
+    <div id='collection-component-1577928073258'></div>
   
   </div>
 
